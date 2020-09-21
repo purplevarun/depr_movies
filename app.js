@@ -7,7 +7,7 @@ window.addEventListener("load",()=>{
         document.querySelector("#inp").value="";
         document.getElementById("frm").style.display="none";
     
-        const byname=`http://www.omdbapi.com/?apikey=d25a5f01&t=${moviename}&plot=full&type=movie`;
+        const byname=`https://www.omdbapi.com/?apikey=d25a5f01&t=${moviename}&plot=full&type=movie`;
         console.log(byname);
         fetch(byname)
         .then(response =>{
