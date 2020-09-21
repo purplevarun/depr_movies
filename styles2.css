@@ -1,0 +1,39 @@
+body{
+    font-size: 30px;
+    background-image: url("bg.jpg");
+    color: azure;
+    padding:20px;
+    float: left;
+    text-align: center;
+    font-family: sans-serif;
+}
+#anal{
+    background-color: darkseagreen;
+    border-radius: 45%;
+    position: absolute;
+    left: 110px;
+    top: 330px;
+    width: 125px;
+    word-wrap: break-word;  
+    /* width: 125px; */
+}
+#new{
+    font-size: 30px;
+}
+#back{
+    font-size: 20px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    display: none;
+    border-radius: 30%;
+    border-style: groove;
+
+}
+#skip{
+    bottom: 20px;
+    left: 10px;
+    position: absolute;
+    font-size: 20px;
+    border-style: groove;
+}
