@@ -14,3 +14,21 @@ div{
 #content,#paste{
 	width: 100%;
 }
+a{
+	margin: 0px;
+	color: cornsilk;
+	border-style: solid;
+	border-width: 3px;
+	border-color: darkcyan;
+	padding: 5px;
+	text-decoration: none;
+}
+a:hover,a:visited{
+	text-decoration: none;
+}
+nav{
+	margin: 0px;
+	padding: 8px;
+	height: 40px;
+	text-align:center;
+}

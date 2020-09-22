@@ -4,7 +4,7 @@ window.onload=function(){
     // }
     document.querySelector("#anal").onclick=function(){
         document.getElementById("wrapper").style.display="none";
-        document.getElementById("back").style.display="block";
+        // document.getElementById("back").style.display="block";
         
         var genre = document.getElementById("choice").value;
         var timeline = document.getElementById("choice1").value;
@@ -39,9 +39,9 @@ window.onload=function(){
             if(timeline=="2000") moviename="the social network";
             if(timeline=="1990") moviename="Schindler's List";
         }
-        document.getElementById("back").onclick=function(){
-            location.reload();
-        }
+        // document.getElementById("back").onclick=function(){
+        //     location.reload();
+        // }
         const byname=`https://www.omdbapi.com/?apikey=d25a5f01&t=${moviename}&plot=full&type=movie`;
         console.log(byname);
         fetch(byname)
